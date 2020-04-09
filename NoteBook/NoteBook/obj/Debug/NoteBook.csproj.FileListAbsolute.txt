@@ -1,0 +1,12 @@
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\bin\Debug\NoteBook.exe.config
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\bin\Debug\NoteBook.exe
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\bin\Debug\NoteBook.pdb
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.csprojAssemblyReference.cache
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.Form1.resources
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.Properties.Resources.resources
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.csproj.GenerateResource.cache
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.csproj.CoreCompileInputs.cache
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.exe
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.pdb
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.Form2.resources
+C:\Users\aysimasavas\source\repos\NoteBook\NoteBook\obj\Debug\NoteBook.Form3.resources
