@@ -66,6 +66,8 @@ namespace NoteBook
 
             if (fileManagmet.GetUser(textBox5.Text, textBox4.Text))
             {
+                //eger kullanıcı doğru ise onun bilgilerini almalıyız bunun için fileManagmentteki GetUserInfo metodunu kullanacığız bu bize stirng bir dizi dönderecek
+                form2.user = fileManagmet.GetUserInfo(textBox5.Text, textBox4.Text);
                 form2.Show();
 
             }
@@ -77,7 +79,7 @@ namespace NoteBook
             this.Hide();
         }
 
- 
+
         public void veriEkle()
         {
             fileManagmet.SaveUser(textBox1.Text, textBox2.Text);
