@@ -42,7 +42,7 @@ namespace NoteBook
             {
                 //şimdi file managment dosyamızı kullanacığız user ile id mizi almıştık
                 if (fileManagmet.SaveNoteToDatFile(richTextBox1.Text, user[0])) //burada save etme fonk çağırıyoruz 
-                {//eğer kaydolduysa 
+                {   //eğer kaydolduysa 
                     MessageBox.Show("Not Başarıyla Kaydedildi", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     //kaydettikten sonra textboxu temizlememiz gerek çünkü  kullanıcı tekrar basarsa program buga girebilir
                     richTextBox1.Clear();

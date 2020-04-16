@@ -14,6 +14,8 @@ namespace NoteBook
     {
         Form2 formm2;
         private FileManagmet FileManagmet;
+        private User User;
+
         // user:
         // user[0] -> user id
         // user[1] -> username
@@ -22,14 +24,16 @@ namespace NoteBook
         public Form3()
         {
             InitializeComponent();
-            FileManagmet = new FileManagmet();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             formm2 = new Form2();
             formm2.Show();
             this.Hide();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,9 +42,15 @@ namespace NoteBook
         }
 
         private void Form3_Load(object sender, EventArgs e)
-        {// burada form açılırken dosyayı okuyacağız id göre bunun için burada da  bir user oluşturduk id ye erişmek için
-         // sonra file managment nesnesi oluşturuyoruz 
-         //şimdi burada comboxı doldurmak için kullanıcı klasörünü okicaz
+        {
+
+            FileManagmet = new FileManagmet();
+            User = new User();
+            
+
+            // burada form açılırken dosyayı okuyacağız id göre bunun için burada da  bir user oluşturduk id ye erişmek için
+            // sonra file managment nesnesi oluşturuyoruz 
+            //şimdi burada comboxı doldurmak için kullanıcı klasörünü okicaz
 
             comboBox1.Items.AddRange(FileManagmet.GetFiles(user[0]));
 
